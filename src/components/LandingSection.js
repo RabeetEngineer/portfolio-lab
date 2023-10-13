@@ -4,7 +4,7 @@ import FullScreenSection from "./FullScreenSection";
 
 const greeting = "Hello, I am Hafiz Rabeet Ahmad!";
 const bio1 = "A Frontend Developer";
-const bio2 = "specialised in React";
+const bio2 = "Specialized in React";
 
 // Implement the UI for the LandingSection component according to the instructions.
 // Use a combination of Avatar, Heading and VStack components.
@@ -27,6 +27,7 @@ const LandingSection = () => (
 
     <VStack spacing={16}>
       <Heading as='h1' size='3xl' noOfLines={1}>{bio1}</Heading>
+      <Heading as='h1' size='3xl' noOfLines={1}>{bio2}</Heading>
     </VStack>
 
   </VStack>
